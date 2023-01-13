@@ -23,8 +23,8 @@ int findContentChildren(vector<int>& g, vector<int>& s) {
 }
 
 int main(){
-    vector<int>& children = {1,2,3};
-    vector<int>& cookies = {1,1};
+    vector<int> children = {1,2,3};
+    vector<int> cookies = {1,1};
 
     int res = findContentChildren(children, cookies);
     cout << "maximum of children being contented is " << res;
