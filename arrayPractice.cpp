@@ -12,7 +12,7 @@ int main(){
   //cout << A[1]<<endl; //15
   //printf("%d\n", A[2]);
   for (int x: A) {
-    cout << x <<endl;//now we can see the gabage!!
+    cout << x <<endl;//now we can see the garbage!!
   }
   return 0;
 }
